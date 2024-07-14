@@ -20,6 +20,7 @@ mongoose.connect(
 const itemsSchema = new mongoose.Schema({
   name: String,
 });
+
 const Item = mongoose.model("Item", itemsSchema);
 
 const defaultItem = [];
